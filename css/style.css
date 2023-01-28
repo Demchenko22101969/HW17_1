@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+  border-radius: 10px;
+    width: 750px;
+    border: 2px solid rgb(104, 114, 84);
+
+}
+
+.section {
+    width: 150px;
+    height: 40px;
+ 
+    display: inline-block;
+}
+
+a :hover {
+    background-color: chartreuse;
+
+}
+
+.but {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: rgb(76, 10, 161);
+
+}
+.but_first {
+    border-radius: 10px 0 0 10px ;
+}
+.but_last {
+    border-radius: 0 10px 10px 0 ;
+}
