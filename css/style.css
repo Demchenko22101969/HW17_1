@@ -1,6 +1,6 @@
 .container {
     display: flex;
-  border-radius: 10px;
+    border-radius: 10px;
     width: 750px;
     border: 2px solid rgb(104, 114, 84);
 
@@ -9,26 +9,28 @@
 .section {
     width: 150px;
     height: 40px;
- 
+
     display: inline-block;
 }
 
 a :hover {
-    background-color: chartreuse;
-
+    background-color: rgb(255, 60, 0);
+    cursor: pointer;
 }
 
 .but {
     width: 150px;
     height: 40px;
     background-color: black;
-    color: rgb(76, 10, 161);
+    color: rgb(232, 227, 238);
     font-size: large;
 
 }
+
 .but_first {
-    border-radius: 10px 0 0 10px ;
+    border-radius: 10px 0 0 10px;
 }
+
 .but_last {
-    border-radius: 0 10px 10px 0 ;
+    border-radius: 0 10px 10px 0;
 }
