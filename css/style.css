@@ -1,4 +1,5 @@
 .container {
+    background-color: black;
     display: flex;
     border-radius: 10px;
     width: 750px;
@@ -9,7 +10,6 @@
 .section {
     width: 150px;
     height: 40px;
-
     display: inline-block;
 }
 
@@ -21,7 +21,7 @@ a :hover {
 .but {
     width: 150px;
     height: 40px;
-    background-color: black;
+    background-color: inherit;
     color: rgb(232, 227, 238);
     font-size: large;
 
